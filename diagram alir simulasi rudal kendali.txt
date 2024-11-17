@@ -1,0 +1,172 @@
+Mulai
+
+	I
+	V
+
+Input posisi awal target di sumbu x
+
+	I
+	V
+
+Input posisi awal target di sumbu y
+
+	I
+	V
+
+Input kecepatan target
+
+	I
+	V
+
+Input sudut elevasi target
+
+	I
+	V
+
+Inisialisasi data rudal dan target
+
+	I
+	V
+
+Hitung jarak rudal dan jarak target
+
+	I
+	V
+Apakah jarak rudal <= jarak Target?
+
+	ya
+	I
+	V
+
+============================================== (mulai looping disini, jika "Apakah jarak rudal <= jarak Target?" bernilai false, program langsung ke "Tampilkan "Target berhasil dimusnahkan di koordinat (koordinat rudal di sumbu x, koordinat rudal di sumbu Y)")
+  Hitung sudut elevasi rudal
+	
+	I
+	V
+
+  Hitung koordinat rudal di sumbu X
+
+	I
+	V
+
+  Hitung koordinat rudal di sumbu Y
+
+	I
+	V
+
+  Hitung koordinat target di sumbu X
+
+	I
+	V
+
+  Hitung koordinat target di sumbu Y
+
+	I
+	V
+
+  Hitung kecepatan rudal X
+
+	I
+	V
+
+  apakah kecepatan rudal X >= 300:
+
+		I ya
+		V
+=============================================== ( kondisional if else, jika kondisi false, maka program langsung ke 'hitung kecepatan rudal di sumbu Y)
+    Set percepatan rudal X ke 0
+
+	I
+	V
+
+    Set waktu rudal X ke 0
+
+	I
+	V
+
+    Set posisi awal rudal X menjadi posisi rudal X saat ini
+=============================================== (akhir dari kondisional if else, setelah selesai, kode lanjut ke 'hitung kecepatan rudal sumbu y
+
+	I
+	V
+
+  Hitung kecepatan rudal Y
+
+
+	I
+	V
+
+  apakah kecepatan rudal Y >= 300:
+
+
+	I ya
+	V
+=============================================(kondisional if else lagi, jika bernilai false, program langsung ke "Hitung kecepatan net rudal"
+
+    Set percepatan rudal Y ke 0
+
+	I
+	V
+
+    Set waktu rudal Y ke 0
+
+	I
+	V
+
+    Set posisi awal rudal Y menjadi posisi awal rudal Y saat ini
+=============================================(akhir dari kondisional if else, setelah selesai, kode lanjut ke "Hitung kecepatan net rudal"
+
+
+
+	I
+	V
+
+  Hitung kecepatan net rudal
+
+	I
+	V
+
+  Hitung percepatan net
+
+
+	I
+	V
+
+  Hitung jarak rudal
+
+	I
+	V
+
+  Hitung jarak target
+
+	I
+	V
+
+  tambah waktu rudal X, waktu rudal Y, dan waktu target dengan 0.3
+
+	I
+	V
+
+  tambah waktu dengan 0.3
+
+	I
+	V
+
+
+  Tampilkan informasi (koordinat Rudal, koordinat Target, kecepatan Rudal, percepatan Rudal, kecepatan Target, waktu)
+=============================================================================(akhir dari looping tadi)
+
+	I
+	V
+
+Tampilkan "Target berhasil dimusnahkan di koordinat (koordinat rudal di sumbu x, koordinat rudal di sumbu Y)"
+
+	I
+	V
+
+Tampilkan "Kecepatan maksimum rudal, kecepatan target, waktu tempuh, dan jarak tempuh"
+
+	I
+	V
+
+Akhir
